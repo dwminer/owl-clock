@@ -6,7 +6,7 @@
 //  Copyright © 2016 Kurt Schaefer. All rights reserved.
 //
 
-#include "math.h"
+#include <math.h>
 #include "float64.h"
 
 float64

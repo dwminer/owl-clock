@@ -7,6 +7,10 @@
 #include <EEPROM.h>
 #include "Declarations.h"
 
+void readAndValidateEEPromInfo();
+void writeEEProm(time_t t);
+void setLedsWithRawTime(int hours, int minutes);
+
 // My helper lib that has moon and holiday code in it.
 extern "C" {
 #include "AstronomicalCalculations.h"

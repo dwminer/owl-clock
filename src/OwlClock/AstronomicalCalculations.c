@@ -8,7 +8,7 @@
 //
 
 #include "AstronomicalCalculations.h"
-#include "Math.h"
+#include <math.h>
 
 // This code doesn't work that well with 4 byte doubles.  The float64 code I wrote to compute this
 // stuff is huge though, so I'm converting back to save space, and hopefully the values won't
